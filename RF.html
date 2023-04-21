@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="RF.css">
+ <title>リアルタイムフィルター</title>
+ </head>
+ 
+ <body>
+   <header>
+     <h1>リアルタイムフィルター</h1>
+     <p>入力した文字を含まない要素は非表示となります。</p>
+     <p>
+       <input type="text" placeholder="ここに入力してください。" id="textinput" size="100">
+     </p>
+   </header>
+   
+   
+   <div class="Firstview">
+     <div class="img_container" id="img1">
+       <div class="img_content">
+         <img src="https://pro-foto.jp/free/img/images_thumb/han0215-049.jpg">
+       </div>
+       <div class="text_content">
+         <p>キーワード</p>
+         <p id="img11">向日葵　ひまわり　himawari</p>
+       </div>
+     </div>
+     
+     <div class="img_container" id="img2">
+       <div class="img_content">
+         <img src="https://pro-foto.jp/free/img/images_thumb/yak0096-051.jpg">
+       </div>
+       <div class="text_content">  
+         <p>キーワード</p>
+         <p id="img22">光　ひかり　hikari</p>
+       </div>  
+     </div>
+     
+     <div class="img_container" id="img3">
+       <div class="img_content">
+         <img src="https://pro-foto.jp/free/img/images_thumb/pla0058-060.jpg">
+       </div>
+       <div class="text_content">
+         <p>キーワード</p>
+         <p id="img33">飛行機　ひこうき　hikouki</p>
+       </div>
+     </div>
+     
+     <div class="img_container" id="img4">
+       <div class="img_content">
+         <img src="https://pro-foto.jp/free/img/images_thumb/wtr0053-024.jpg">
+       </div>
+       <div class="text_content">
+         <p>キーワード</p>
+         <p id="img44">海　うみ　sea</p>
+       </div>
+      </div>
+   </div>
+ 
+ <script src="RF.js"></script>
+ </body>
+ </html>
